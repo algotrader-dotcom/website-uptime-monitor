@@ -6,8 +6,8 @@ sys.path.append('./')
 
 import uptime_monitor
 
-emails = ["thuan.nguyen@8bitrockr.com"]
-websites = ['http://techblogsearch.com', 'http://puppy.vn', 'https://www.dataflowplus.org', 'http://www.everystay.com']
+emails = ["your-email@domain.com"]
+websites = ['http://techblogsearch.com', 'http://abc.com']
 for website in websites:
 	if not uptime_monitor.monitor_uptime(website, emails):
     	    pass
